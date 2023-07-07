@@ -1,0 +1,36 @@
+
+.Navbar {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .Navbar ul a{
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 1.6rem; /* Increase the font size */
+    margin-right: 100px; /* Adjust the spacing between the links */
+  }
+  
+  a:hover {
+    background-color:rgb(87, 120, 109); 
+  }
+  /*
+  .Navbar {
+    display: flex;
+    justify-content: flex-end;
+  }
+  */
+  

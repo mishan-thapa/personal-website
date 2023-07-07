@@ -1,0 +1,22 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+
+*{
+  font-family: 'Goldman', cursive;
+}
+
+body {
+  background-color: #F2E2D2;
+}
+
+h1, h4, p, a{
+  text-decoration: none;
+  color: black;
+}
