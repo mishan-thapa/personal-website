@@ -1,0 +1,26 @@
+.projectCard{
+    border: solid black; 
+    width: 70vw;
+    height: 40vh;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+    background-color:aliceblue
+}
+
+.pcard-left{
+    
+}
+
+.pcard-right{
+
+}
+
+.projectimg{
+    width: 35vw;
+    height: 40vh;
+    object-fit: contain; /* Adjust the object-fit property as needed */
+}
