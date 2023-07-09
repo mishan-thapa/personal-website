@@ -1,5 +1,5 @@
 import './FooterStyles.css'
-import {FaDiscord, FaFacebook, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone} from 'react-icons/fa';
+import { FaFacebook, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone} from 'react-icons/fa';
 
 const Footer = () => {
     return(
@@ -24,10 +24,18 @@ const Footer = () => {
                 <div className='right'>
                     <h4>let's be friends</h4>
                     <div className='social'>
-                        < FaFacebook size={30} style={{marginRight :"1rem"}} />
-                        < FaInstagram size={30} style={{marginRight :"1rem"}} />
-                        < FaDiscord size={30} style={{marginRight :"1rem"}} />
-                        < FaLinkedin size={30} style={{marginRight :"1rem"}} />
+                        <a href='https://www.facebook.com/kshetrimishanthapa/'>
+                            < FaFacebook size={30} style={{marginRight :"1rem"}} />
+                        </a>
+                        <a href='https://www.instagram.com/maximus_ici/'>
+                            < FaInstagram size={30} style={{marginRight :"1rem"}} />
+                        </a>
+                        <a href='https://www.linkedin.com/in/mishan-thapa-kshetri-645bb622a/'>
+                            < FaLinkedin size={30} style={{marginRight :"1rem"}} />
+                        </a>
+                        
+                        
+                        
                     </div>
                 </div>
             </div>

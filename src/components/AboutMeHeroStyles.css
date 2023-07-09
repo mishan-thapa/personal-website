@@ -1,0 +1,28 @@
+.aboutmeherocontainer{
+    width: 80vw;
+    height: 53vh;
+  /*  border: solid black; */
+    margin: auto;
+    display: flex;
+}
+
+.aboutmeherocontent{
+ /*   border: solid black; */
+    flex: 1;
+    margin-right: 2vh;
+}
+
+.aboutmeherocontent:last-child {
+    margin-right: 0;
+  }
+
+.aboutmehorizontalline{
+    border-top: 1px solid black;
+    width: 80vw;
+}
+
+.myprofile{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

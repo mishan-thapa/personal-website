@@ -7,7 +7,7 @@ class ProjectCard extends Component {
         return(
             <div className='projectCard'>
                 <div className='pcard-left'>
-                    <img className='projectimg' src={this.props.imgpath}alt="pimg1"  />
+                    <img className='projectimg' src={this.props.imgpath} alt="pimg1"  />
                 </div>
                 <div className='pcard-right'>
                     <div className='pcard-right-heading'>

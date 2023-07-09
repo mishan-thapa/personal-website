@@ -11,7 +11,8 @@ const Projects = () =>{
             <Navbar />
             <PageHeading heading="Recent Projects"/>
             {
-                ProjectCardData.map((ProjectCardData) => <ProjectCard title = {ProjectCardData.title} imgpath = {ProjectCardData.imgpath} description ={ProjectCardData.description} />)
+                ProjectCardData.map((ProjectCardData) =>
+                 <ProjectCard title = {ProjectCardData.title} imgpath = {ProjectCardData.imgpath} description ={ProjectCardData.description} />)
             }
             <Footer />
         </div>
