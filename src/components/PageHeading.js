@@ -5,7 +5,7 @@ class PageHeading extends Component {
     render(){
         return(
             <div className='pageheading'>
-                <h1>{this.props.heading}</h1>
+                <h1 class="about-me-title">{this.props.heading}</h1>
             </div>
         )
     }

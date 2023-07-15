@@ -5,15 +5,18 @@ code {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 
 
 *{
-  font-family: 'Goldman', cursive;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
-  background-color: #F2E2D2;
+ /* background-color: #F2E2D2; */
+ background-color: #F5F5F5;
 }
 
 h1, h4, p, a{

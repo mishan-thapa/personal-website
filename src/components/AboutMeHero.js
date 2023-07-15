@@ -1,15 +1,18 @@
 import './AboutMeHeroStyles.css'
-import myprofile from '../assets/myprofile2.JPG'
+//import myprofile from '../assets/myprofile2.JPG'
 
 const AboutMeHero = () =>{
     return(
         <div className='aboutmemaincontainer'>
             <div className='aboutmeherocontainer'>
                 <div className='aboutmeherocontent'>
-                    <img className='myprofile' src={myprofile} alt="myprofile" />
+                    <div className="content">
+                        <h1>Design and</h1>
+                        <h1>Software</h1>
+                        <h1>Enthusiast</h1>
+                    </div>
                 </div>
                 <div className='aboutmeherocontent'>
-                    <h1>Who is Mishan?</h1>
                     <p >I am currently pursuing a degree in computer engineering,
                         where I actively engage in the design and construction of websites.
                         Additionally, I possess a strong inclination towards the fields of data science,

@@ -4,12 +4,17 @@
   /*  border: solid black; */
     margin: auto;
     display: flex;
+    padding: 3vh;
 }
 
 .aboutmeherocontent{
  /*   border: solid black; */
     flex: 1;
     margin-right: 2vh;
+}
+
+.aboutmeherocontent p{
+  font-size: 1.4vw;
 }
 
 .aboutmeherocontent:last-child {
