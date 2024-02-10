@@ -1,8 +1,9 @@
 const SkillCardData =[
-    {skill_name :"Javascript ★★★☆"},
     {skill_name :"Python ★★★★☆"},
+    {skill_name :"PHP ★★★★☆"},
+    {skill_name :"Javascript ★★★☆☆"},
     {skill_name :"Java ★★★☆☆"},
-    {skill_name :"C++ ★★★★☆"},
+    {skill_name :"MySql ★★★★☆"},
 
     
     
